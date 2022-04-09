@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>090207-ИСПа-о20</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="style/NPK-ISPa-Timetable.CSS">
+</head>
+
+<body>
+    <header class="header">
+        <form action="HOME.html" target="_self">
+            <button class="button-HOME"><span>Главная</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-HOME').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+        <form action="Timetable.html" target="_self">
+            <button class="button-Timetable"><span>Расписание</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-Timetable').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+        <form action="Map.html" target="_self">
+            <button class="button-Map"><span>ГАЛЕРЕЯ</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-Map').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+    </header>
+    <div class="BORDER-SEREDINA">
+        <div class="BORDER-TEXT-SEREDINA">
+            <table border="1" bordercolor="gray" width="1260" height="200" style="margin-left: 140px;  border-collapse: collapse; border-color: skyblue;">
+                <tr>
+                    <h1 style="text-align: center; margin-bottom: 60px; ">090207-ИСПа-о20 ... cеместр 09.02.2022-14.06.2022, cессия 15.06.2022-21.06.2022</h1>
+                    <td colspan="1">
+                        <td>09:00-10:30</td>
+                        <td>10:45-12:15</td>
+                        <td>13:15-14:45</td>
+                        <td>15:00-16:30</td>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="1">ПН
+                    </td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li style="margin-left: 25px;">ПР 405УБК Основы программирования 36 час.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li style="margin-left: 25px;">ЛЕК 311РТ Основы электротех,электрон и схемотех 36 час.</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="1">ВТ
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="1">СР
+                    </td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li style="margin-left: 25px;">ЛЕК 109Х Основы программирования 36 час.</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li style="margin-left: 25px;">ЛЕК 303Х Технология разработ програм обеспечения 18 час.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="1">ЧТ
+                    </td>
+                    <td>
+                        <ul>
+                            <li style="margin-left: 25px;">ПР 307АРТ Матем логика и теория алгоритм 36 час.</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li style="margin-left: 25px;">ЛЕК 303Х Технич методы и средства защиты информации 54 час.</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="1">ПТ
+                    </td>
+                    <td>
+                        <ul>
+                            <li style="margin-left: 25px;">ПР 305РТ Иностранный язык в проф деятельности 36 час. </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li style="margin-left: 25px;">ЛЕК 307ГЛ Технич методы и средства защиты информации 54 час.</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer class=" footer ">
+    </footer>
+</body>
+
+</html>

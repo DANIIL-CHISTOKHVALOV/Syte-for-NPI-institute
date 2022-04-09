@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>540201-Да-о20</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="style/NPK-Da-Timetable.CSS">
+</head>
+
+<body>
+    <header class="header">
+        <form action="HOME.html" target="_self">
+            <button class="button-HOME"><span>Главная</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-HOME').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+        <form action="Timetable.html" target="_self">
+            <button class="button-Timetable"><span>Расписание</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-Timetable').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+        <form action="Map.html" target="_self">
+            <button class="button-Map"><span>ГАЛЕРЕЯ</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-Map').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+    </header>
+    <div class="BORDER-SEREDINA">
+        <div class="BORDER-TEXT-SEREDINA">
+            <table border="1" bordercolor="gray" width="1260" height="200" style="margin-left: 140px;  border-collapse: collapse; border-color: skyblue;">
+                <tr>
+                    <h1 style="text-align: center; margin-bottom: 60px; ">540201-Да-о20 ..... cеместр 09.02.2022-07.06.2022, cессия 22.06.2022-28.06.2022</h1>
+                    <td colspan="1">
+                        <td>09:00-10:30</td>
+                        <td>10:45-12:15</td>
+                        <td>13:15-14:45</td>
+                        <td>15:00-16:30</td>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="1">ПН
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td rowspan="1">ВТ
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="1">СР</td>
+                    <td>
+                        <ul>
+                            <li style="margin-left: 25px;">ПР 315РТ Иностранный язык 50 час.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li style="margin-left: 25px;">ЛАБ 301УБК Информац обеспечение проф деятел 18 час.</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="1">ЧТ
+                    </td>
+                    <td>
+                        <ul>
+                            <li style="margin-left: 25px;">ПР 326АГЛ Дизайн-проектирование 18 час.</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td rowspan="1">ПТ
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <ul>
+                            <li style="margin-left: 25px;">ЛЕК 318РТ Живопись с основами цветоведения 16 час.</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li style="margin-left: 25px;">ЛЕК 306ГЛ Композиция 16 час.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer class=" footer ">
+    </footer>
+</body>
+
+</html>

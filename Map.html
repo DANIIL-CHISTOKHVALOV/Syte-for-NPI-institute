@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Галерея</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="style/Map.CSS">
+</head>
+
+<body>
+    <header class="header">
+        <form action="HOME.html" target="_self">
+            <button class="button-HOME"><span>Главная</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-HOME').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+        <form action="Timetable.html" target="_self">
+            <button class="button-Timetable"><span>Расписание</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-Timetable').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+        <form action="Map.html" target="_self">
+            <button class="button-Map"><span>ГАЛЕРЕЯ</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-Map').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+    </header>
+    <div class="BORDER-SEREDINA">
+        <div class="TABLE-SEREDINA">
+            <table border="2" bordercolor="skyblue">
+                <tr>
+                    <td><img src="photo/map.jpg" width="960" height="666"> </td>
+                </tr>
+
+            </table>
+            <table border="2" bordercolor="skyblue">
+                <tr>
+                    <td><img src="photo/нпи вид с лицевой стороны 2.jpg"> </td>
+                </tr>
+            </table>
+            <table border="2" bordercolor="skyblue">
+                <tr>
+
+
+                    <tr>
+                        <td><img src="photo/нпи-вид с верху.jpg" width="960" height="866"> </td>
+                    </tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer class=" footer ">
+    </footer>
+</body>
+
+</html>

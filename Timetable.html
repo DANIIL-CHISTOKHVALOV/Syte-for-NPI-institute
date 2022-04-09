@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Расписание</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="style/Timetable.CSS">
+</head>
+
+<body>
+    <header class="header">
+        <form action="HOME.html" target="_self">
+            <button class="button-HOME"><span>Главная</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-HOME').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+        <form action="Timetable.html" target="_self">
+            <button class="button-Timetable"><span>Расписание</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-Timetable').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+        <form action="Map.html" target="_self">
+            <button class="button-Map"><span>ГАЛЕРЕЯ</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-Map').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+    </header>
+    <div class="BORDER-SEREDINA">
+        <div class="BORDER-TEXT-SEREDINA">
+            <h1>ГРУППА</h1>
+            <h2>выберите курс группы</h2>
+        </div>
+        <form action="SELECT-YOUR-FACULTET.html" target="_self">
+            <button class="KURS"><h2 align="center">1 курс</h2></button>
+            <button class="KURS moreright"><h2 align="center">2 курс</h2></button>
+            <button class="KURS moreright"><h2 align="center">3 курс</h2></button>
+            <button class="KURS moreright"><h2 align="center">4 курс</h2></button>
+            <button class="KURS moreright"><h2 align="center">5 курс</h2></button>
+            <button class="KURS moreright"><h2 align="center">6 курс</h2></button>
+        </form>
+    </div>
+    <footer class=" footer ">
+    </footer>
+</body>
+
+</html>

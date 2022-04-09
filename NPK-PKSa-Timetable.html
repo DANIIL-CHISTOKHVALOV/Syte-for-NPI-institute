@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>090203-ПКСэ-о20</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="style/NPK-PKSa-Timetable.CSS">
+</head>
+
+<body>
+    <header class="header">
+        <form action="HOME.html" target="_self">
+            <button class="button-HOME"><span>Главная</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-HOME').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+        <form action="Timetable.html" target="_self">
+            <button class="button-Timetable"><span>Расписание</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-Timetable').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+        <form action="Map.html" target="_self">
+            <button class="button-Map"><span>ГАЛЕРЕЯ</span></button>
+        </form>
+        <script>
+            document.querySelector('.button-Map').onmousemove = function(e) {
+                var x = e.pageX - e.target.offsetLeft;
+                var y = e.pageY - e.target.offsetTop;
+                e.target.style.setProperty('--x', x + 'px');
+                e.target.style.setProperty('--y', y + 'px');
+            };
+        </script>
+    </header>
+    <div class="BORDER-SEREDINA">
+        <div class="BORDER-TEXT-SEREDINA">
+            <table border="1" bordercolor="gray" width="1260" height="200" style="margin-left: 140px;  border-collapse: collapse; border-color: skyblue;">
+                <tr>
+                    <h1 style="text-align: center; margin-bottom: 60px; ">Группа 090203-ПКСэ-о20 ... cеместр 09.02.2022-24.05.2022, cессия 22.06.2022-28.06.2022</h1>
+                    <th colspan="1">
+                        <th align="center">09:00-10:30</th>
+                        <th align="center">10:45-12:15</th>
+                        <th align="center">13:15-14:45</th>
+                        <th align="center">15:00-16:30</th>
+                    </th>
+                </tr>
+                <tr>
+                    <th rowspan=" 1 ">ПН
+                        <td>
+                            <ul>
+                                <li style="margin-left: 25px;">ЛЕК 307ГЛ Прикладное программирование 28 час.</li>
+                            </ul>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <ul>
+                                <li style="margin-left: 25px;">ЛАБ 201УБК Инфокоммуникацион системы и сети 28 час.</li>
+                            </ul>
+                        </td>
+                    </th>
+                </tr>
+                <tr>
+                    <th rowspan="1 ">ВТ
+                        <td></td>
+                        <td>
+                            <ul>
+                                <li style="margin-left: 25px;">ЛАБ 405УБК Компьютерная графика 28 час.</li>
+                            </ul>
+                        </td>
+                        <td></td>
+                        <td>
+                            <ul>
+                                <li style="margin-left: 25px;">КР 305УБК Прикладное программирование 28 час.</li>
+                            </ul>
+                        </td>
+                    </th>
+                </tr>
+                <tr>
+                    <th rowspan="1 ">СР
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </th>
+                </tr>
+                <tr>
+                    <th rowspan="1 " align="center ">ЧТ
+                        </td>
+                        <td></td>
+                        <td>
+                            <ul>
+                                <li style="margin-left: 25px;">ЛАБ 307АРТ Метрология и стандартизация 28 час.</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li style="margin-left: 25px;">ЛЕК 318РТ Метрология и стандартизация 28 час.</li>
+                            </ul>
+                        </td>
+                        <td></td>
+                    </th>
+                </tr>
+                <tr>
+                    <th rowspan="1 ">ПТ
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <ul>
+                                <li style="margin-left: 25px;">ЛЕК 311РТ Безопасность жизнедеятельности 28 час.</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li style="margin-left: 25px;">ЛАБ 201УБК Технол разраб защиты баз данных 42 час.</li>
+                            </ul>
+                        </td>
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer class=" footer ">
+    </footer>
+</body>
+
+</html>
